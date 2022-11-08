@@ -1,9 +1,3 @@
-/* * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-} */
-
 body {
   display: flex;
   flex-direction: column;
@@ -12,10 +6,15 @@ body {
 }
 
 button {
+  width: 100px;
   border: 1px solid black;
   margin: 50px;
   padding: 15px;
   border-radius: 15px;
+}
+
+button:active {
+  background-color: darkgray;
 }
 
 .container {
@@ -23,13 +22,13 @@ button {
   height: 480px;
   outline: 1px solid black;
   display: grid;
-  grid-template-columns: repeat(var(--n, 32), 1fr);
+  grid-template-columns: repeat(var(--n), 1fr);
 }
 
 .grid-pixel {
-  border: 1px solid whitesmoke;
+  border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
-.grid-pixel:hover {
+/* .grid-pixel:hover {
   background-color: black;
-}
+} */
