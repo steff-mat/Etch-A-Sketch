@@ -6,9 +6,9 @@ body {
 }
 
 button {
-  width: 100px;
+  width: 125px;
   border: 1px solid black;
-  margin: 50px;
+  margin: 5px;
   padding: 15px;
   border-radius: 15px;
 }
@@ -28,7 +28,3 @@ button:active {
 .grid-pixel {
   border: 1px solid rgba(0, 0, 0, 0.03);
 }
-
-/* .grid-pixel:hover {
-  background-color: black;
-} */
